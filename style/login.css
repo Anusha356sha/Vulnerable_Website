@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #f4f4f4, #e2e2e2); /* Gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #333, #555); /* Gradient header background */
+    color: #fff;
+    padding: 15px 0; /* Increased padding */
+    text-align: center; /* Center header text */
+}
+
+h1 {
+    margin: 0; /* Remove margin to align with header */
+    padding: 0 10px; /* Add padding for spacing */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 20px auto; /* Increased margin for spacing from top and bottom */
+    padding: 25px; /* Increased padding for better spacing inside the form */
+    border: 1px solid #ddd; /* Lighter border color */
+    border-radius: 8px; /* Increased border radius for rounded corners */
+    background: linear-gradient(to bottom right, #fff, #f9f9f9); /* Gradient background for form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    margin: 12px 0; /* Increased margin */
+    border: 1px solid #ddd; /* Lighter border color */
+    border-radius: 4px; /* Slightly larger border radius */
+    box-sizing: border-box;
+}
+
+input[type="submit"], button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background: linear-gradient(to right, #007bff, #0056b3); /* Gradient button background */
+    color: #fff;
+    border: none;
+    border-radius: 4px; /* Slightly larger border radius */
+    cursor: pointer;
+    margin: 12px 0; /* Increased margin */
+    box-sizing: border-box;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: linear-gradient(to right, #0056b3, #003d7a); /* Darker gradient on hover */
+}
+
+@media screen and (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        margin: 10px auto; /* Adjusted margin for smaller screens */
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0; /* Increased padding */
+    background: linear-gradient(to right, #333, #555); /* Gradient footer background */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

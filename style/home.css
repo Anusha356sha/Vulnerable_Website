@@ -1,0 +1,81 @@
+/* css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #e2e2e2, #f4f4f4); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+header {
+    background: linear-gradient(to right, #333, #555); /* Gradient header background */
+    color: #fff;
+    padding: 15px 0; /* Increased padding */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align navigation items */
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px; /* Increased padding */
+    display: block;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #2f6dbb; /* Adjusted link color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto; /* Increased margin */
+    padding: 25px; /* Increased padding */
+    border-radius: 8px; /* Larger border radius */
+    background: #fff; /* Solid background for container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+}
+
+.sub-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 25px; /* Increased padding */
+    border-radius: 8px; /* Larger border radius */
+    background: #fff; /* Solid background for sub-container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition */
+}
+
+.sub-container:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0; /* Increased padding */
+    background: linear-gradient(to right, #333, #555); /* Gradient footer background */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,140 @@
+/* css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #f4f4f4, #e0e0e0); /* Gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto; /* Increased margin */
+    padding: 25px; /* Increased padding */
+    border-radius: 8px; /* Larger border radius */
+    background-color: #ffffff; /* Solid background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+}
+
+.sub-container {
+    max-width: 800px;
+    margin: 30px auto; /* Increased margin */
+    padding: 25px; /* Increased padding */
+    border-radius: 8px; /* Larger border radius */
+    background-color: #ffffff; /* Solid background */
+    box-shadow: 0 4px 15px rgba(51, 49, 49, 0.1); /* Enhanced shadow */
+}
+
+header {
+    background: linear-gradient(to right, #333, #555); /* Gradient background */
+    color: #fff;
+    padding: 15px 0; /* Increased padding */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px; /* Increased padding */
+    display: block;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Rounded corners */
+}
+
+header nav ul li a:hover {
+    background: linear-gradient(to right, #555, #777); /* Gradient hover effect */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0; /* Increased padding */
+    background: linear-gradient(to right, #333, #555); /* Gradient background */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table caption {
+    font-size: 1.6em; /* Slightly larger font size */
+    font-weight: bold;
+    padding: 12px;
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Gradient background */
+    border-bottom: 2px solid #ddd; /* Thicker border */
+}
+
+.table thead th {
+    background: linear-gradient(to right, #e0e0e0, #f0f0f0); /* Gradient background */
+    border-bottom: 2px solid #ddd; /* Thicker border */
+    padding: 12px; /* Increased padding */
+    text-align: left;
+}
+
+.table tbody td {
+    padding: 12px; /* Increased padding */
+    border-bottom: 1px solid #ddd; /* Thinner border */
+}
+
+.table tfoot td {
+    background: linear-gradient(to right, #e0e0e0, #f0f0f0); /* Gradient background */
+    padding: 12px; /* Increased padding */
+    border-top: 2px solid #ddd; /* Thicker border */
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    border-radius: 8px; /* Larger border radius */
+    border: 1px solid #ddd; /* Lighter border color */
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Added margin for spacing */
+}
+
+input[type="submit"], button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient background */
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Larger border radius */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    text-align: center;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+input[type="submit"]:hover, button:hover {
+    background: linear-gradient(to right, #0072ff, #0056b3); /* Darker gradient on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+td {
+    padding: 10px; /* Increased padding */
+}
